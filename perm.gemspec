@@ -6,11 +6,11 @@ require 'perm/version'
 Gem::Specification.new do |spec|
   spec.name          = "perm"
   spec.version       = Perm::VERSION
-  spec.authors       = ["Chris Hoffman"]
-  spec.email         = ["choffman@optoro.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Chris Hoffman", "John Nestoriak"]
+  spec.email         = ["yarmiganosca@gmail.com"]
+  spec.summary       = "Write migrations for your permissions."
+  spec.description   = "Write migrations for your permissions."
+  spec.homepage      = "https://github.com/yarmiganosca/perm"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

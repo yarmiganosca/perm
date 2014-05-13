@@ -1,5 +1,4 @@
 require "perm/version"
+require "perm/schema"
+require "perm/migration"
 
-module Perm
-  # Your code goes here...
-end
